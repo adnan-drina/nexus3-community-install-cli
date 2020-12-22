@@ -7,5 +7,5 @@ spec:
   channel: alpha
   installPlanApproval: Automatic
   name: nexus-operator-m88i
-  source: community-operators-index
+  source: community-operators
   sourceNamespace: openshift-marketplace

@@ -11,8 +11,8 @@ oc apply -f nexus-namespace.yaml
 echo "Nexus Project created!"
 echo " "
 echo "Configure Nexus"
-oc apply -f scc-volatile.yaml -n nexus-repository
-oc adm policy add-scc-to-user allow-nexus-userid-200 -z nexus3
+oc apply -f scc-volatile.yaml
+oc adm policy add-scc-to-user allow-nexus-userid-200 -z nexus3 -n nexus-repository
 echo "Configure Nexus Done!"
 echo " "
 echo "Deploying Nexus CR"
