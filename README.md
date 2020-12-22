@@ -137,6 +137,7 @@ You should see 1 route:
 - nexus3 — for connecting to the Nexus Repository Console
 
 connect to the route named **nexus3** using your browser
+using credentials admin/admin123
 
 ---
 The installation process is based on documentation from [github.com/m88i/nexus-operator](https://github.com/m88i/nexus-operator#openshift)
