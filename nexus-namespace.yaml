@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: "Single source of truth for all of your components, binaries, and build artifacts."
+    openshift.io/display-name: "Sonatype Nexus 3 Repository"
+  name: nexus-repository
