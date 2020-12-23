@@ -9,3 +9,4 @@ spec:
   name: nexus-operator-m88i
   source: community-operators
   sourceNamespace: openshift-marketplace
+  CSV: nexus-operator.v0.4.0
